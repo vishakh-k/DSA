@@ -1,7 +1,7 @@
 package BasicMaths;
 
 public class GCD {
-    public static int findGCD(int a, int b){
+    public int findGCD(int a, int b){
         while(a!=b){
             if(a>b){
                 a=a-b;
